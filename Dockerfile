@@ -10,7 +10,5 @@ COPY src/Main.java .
 # Compile the application code
 RUN javac Main.java
 
-# run the application
+# Run the application
 CMD ["java" , "Main"]
-
-
